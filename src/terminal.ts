@@ -9,33 +9,33 @@ import {
   MembershipLevel,
   OrderStatus,
   Payment,
-} from "./types.js";
-import { foodItems } from "./data.js";
+} from "./types";
+import { foodItems } from "./data";
 import {
   createGuestCustomer,
   createMemberCustomer,
   isMember,
-} from "./customer.js";
+} from "./customer";
 import {
   addToCart,
   calculateItemTotal,
   removeFromCart,
   updateQuantity,
-} from "./cart.js";
+} from "./cart";
 import {
   calculateDiscount,
   calculateFinalAmount,
   calculateSubtotal,
   calculateTax,
   generateBill,
-} from "./billing.js";
-import { processPayment } from "./payment.js";
+} from "./billing";
+import { processPayment } from "./payment";
 import {
   displayBill,
   orderHistory,
   saveOrder,
   updateOrderStatus,
-} from "./order.js";
+} from "./order";
 
 // Global in-memory session state
 let currentCustomer: Customer = createGuestCustomer(1, "Guest Customer");

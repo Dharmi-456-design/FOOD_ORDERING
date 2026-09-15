@@ -1,4 +1,4 @@
-import { FoodItem } from "./types.js";
+import { FoodItem } from "./types";
 
 // Food items list (minimum 8 items required by assignment)
 export const foodItems: FoodItem[] = [

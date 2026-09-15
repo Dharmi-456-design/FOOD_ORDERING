@@ -1,4 +1,4 @@
-import { Customer, Guest, Member, MembershipLevel } from "./types.js";
+import { Customer, Guest, Member, MembershipLevel } from "./types";
 
 // Helper to create a guest customer
 export function createGuestCustomer(

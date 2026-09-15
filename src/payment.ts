@@ -1,4 +1,4 @@
-import { Payment } from "./types.js";
+import { Payment } from "./types";
 
 // Result of processing payment
 export interface PaymentResult {

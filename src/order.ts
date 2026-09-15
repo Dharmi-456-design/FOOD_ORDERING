@@ -1,5 +1,5 @@
-import { BillDetails, OrderStatus } from "./types.js";
-import { getPaymentSummary } from "./payment.js";
+import { BillDetails, OrderStatus } from "./types";
+import { getPaymentSummary } from "./payment";
 
 // Exhaustiveness check helper using 'never' as requested in assignment
 export function assertNever(value: never): never {

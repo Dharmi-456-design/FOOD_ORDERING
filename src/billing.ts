@@ -1,5 +1,5 @@
-import { BillResult, CartItem, Customer, Payment } from "./types.js";
-import { isMember } from "./customer.js";
+import { BillResult, CartItem, Customer, Payment } from "./types";
+import { isMember } from "./customer";
 
 // Calculate cart subtotal using reduce
 export function calculateSubtotal(cart: CartItem[]): number {

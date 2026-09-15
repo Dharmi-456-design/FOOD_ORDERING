@@ -1,4 +1,4 @@
-import { CartItem, FoodItem } from "./types.js";
+import { CartItem, FoodItem } from "./types";
 
 // Calculate individual item total (price * quantity)
 export function calculateItemTotal(item: CartItem): number {
